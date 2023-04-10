@@ -25,10 +25,10 @@ public class PossessedTrigger : MonoBehaviour
 
     void OnTriggerExit(Collider player)
     {
-        StartCoroutine(endPossessed());
+        StartCoroutine(EndPossessed());
     }
 
-    IEnumerator endPossessed()
+    IEnumerator EndPossessed()
     {
         yield return new WaitForSeconds(5);
         PossessCanvas.SetActive(false);
