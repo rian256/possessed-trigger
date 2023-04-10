@@ -4,7 +4,7 @@ using UnityEngine;
 
 // rian256
 // Script to show you are possessed using a canvas and an GameObject as a trigger
-public class PossessTrigger : MonoBehaviour
+public class PossessedTrigger : MonoBehaviour
 {
     public GameObject PossessCanvas;
 
