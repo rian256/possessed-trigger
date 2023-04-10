@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // rian256
-// Script to show you are possessed using a canvas and an GameObject as a trigger
+// Script to show you just got possessed using a canvas and an GameObject as a trigger
 public class PossessedTrigger : MonoBehaviour
 {
     public GameObject PossessCanvas;
